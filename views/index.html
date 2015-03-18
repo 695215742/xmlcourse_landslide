@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-cn" xmlns:wb="http://open.weibo.com/wb">>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,12 +16,14 @@
       <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 	<meta property="wb:webmaster" content="fd755cc8571159d5" />
+	<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=3407128574" type="text/javascript" charset="utf-8"></script>
   </head>
   <body class="container">
 
 	<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     ...
+	<wb:login-button type="1,2" onlogin="login" onlogout="logout">登录按钮</wb:login-button>
   </div>
 </nav>
   
