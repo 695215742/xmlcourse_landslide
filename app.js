@@ -24,8 +24,14 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //app.use('/', routes);
 app.use('/users', users);
-app.use('/', function(req, res) {
+app.use('/index', function(req, res) {
    res.sendfile('./views/index.html');
+});
+app.use('/second', function(req, res) {
+   res.sendfile('./views/second.html');
+});
+app.use('/third', function(req, res) {
+   res.sendfile('./views/third.html');
 });
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
