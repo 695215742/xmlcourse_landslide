@@ -4,16 +4,10 @@ block content
  nav.navbar.navbar-default.navbar-fixed-top
   div.container
    div.navbar-header
-    a.navbar-brand(href="#") xml技术
-   ul.nav.navbar-nav
-    li
-     a(href="./movie") 电影
-    li
-     a(href="./music") 音乐
-    li
-     a(href="./animation") 动漫
-    li
-     a(href="./tv") 电视
+    ul.nav.navbar-nav
+     li
+      a(href="./index") 返回首页
+    a.navbar-brand(href="#") landslide#{groupname}
    ul.nav.navbar-nav.navbar-right
     li.dropdown
      a.dropdown-toggle(href="#" data-toggle="dropdown" role="button" aria-expanded="false") 日期
@@ -25,10 +19,3 @@ block content
        a(href="./third") 第三周
      li
       wb:login-button(type="3,2" onlogin="login" onlogout="logout") 登录按钮
- div.row
-  div.jumbotron
-   h1 第#{week}周作业
-   p= weekintro
-   p
-    button.btn.btn-lg.btn-primary(type="button" data-toggle="popover" title="Download URL" data-content= weekurl) 查看作业文件
-   wb:comments(url=weekid width="auto" appkey="3407128574" )

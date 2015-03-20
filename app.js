@@ -24,15 +24,64 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //app.use('/', routes);
 app.use('/users', users);
+
+//catch week
 app.use('/index', function(req, res) {
-   res.sendfile('./views/index.html');
+     res.render('index',{
+		weekid:'http://xmlcourse.herokuapp.com/first/',
+		week:'一',
+		weekintro:"xml课程简介"
+	 }
+	 );
 });
+
 app.use('/second', function(req, res) {
-   res.sendfile('./views/second.html');
+  res.render('index',{
+		weekid:'http://xmlcourse.herokuapp.com/second/',
+		week:'二',
+		weekintro:"dtd+schema+xml，提交时间3/20 晚8点前",
+		weekurl:"http://kuai.xunlei.com/s/-hzBZnJ0oEDjdpJDBtRCwA#"
+	 }
+	 );
 });
 app.use('/third', function(req, res) {
-   res.sendfile('./views/third.html');
+   res.render('index',{
+		weekid:'http://xmlcourse.herokuapp.com/third/',
+		week:'三',
+		weekintro:"暂无"
+	 }
+	 );
 });
+
+
+// catch group
+app.use('/music', function(req, res) {
+   res.render('group_index',{
+		groupname:"音乐"
+	 }
+	 );
+});
+app.use('/tv', function(req, res) {
+   res.render('group_index',{
+		groupname:"电视"
+	 }
+	 );
+});
+app.use('/animation', function(req, res) {
+   res.render('group_index',{
+		groupname:"动漫"
+	 }
+	 );
+});
+app.use('/movie', function(req, res) {
+   res.render('group_index',{
+		groupname:"电影"
+	 }
+	 );
+});
+
+
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
