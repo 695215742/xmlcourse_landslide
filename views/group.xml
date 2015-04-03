@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./group.xsl"?>
+<group xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="group.xsd">
+	<members>
+		<mname>Animations</mname>
+		<logo>./images/animation.jpg</logo>
+		<background>./images/animaitonbackground.jpg</background>
+		<introduction>you still have lots more to work on.</introduction>
+		<member1>
+			<stuID>71Y12125</stuID>
+			<name>XuebingZhao</name>
+		</member1>
+		<member2>
+			<stuID>71Y12123</stuID>
+			<name>HaoranLiu</name>
+		</member2>
+	</members>
+	<members>
+		<mname>Movies</mname>
+		<logo>./images/movie.jpg</logo>
+		<background>./images/moviebackground.jpg</background>
+		<introduction>A brother may not be a friend, but a friend will always be a brother. </introduction>
+		<member1>
+			<stuID>71112428</stuID>
+			<name>YangQiu</name>
+		</member1>
+		<member2>
+			<stuID>71112429</stuID>
+			<name>YueZhang</name>
+		</member2>
+	</members>
+	
+</group>

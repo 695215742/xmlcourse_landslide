@@ -107,7 +107,7 @@
 							  </xsl:attribute>
 						  </img>
 						</a>
-						<p><xsl:value-of select="Ch_name"/></p>
+						<h4 class="text-center text-primary"><xsl:value-of select="Ch_name"/></h4>
 					  </div>
 			</xsl:for-each>
 			

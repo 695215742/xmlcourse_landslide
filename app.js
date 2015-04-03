@@ -41,6 +41,12 @@ app.use('/animationtest', function(req, res) {
 app.use('/Animation.xsl', function(req, res) {
      res.sendfile("./views/animation/Animation.xsl");
 });
+app.use('/group', function(req, res) {
+     res.sendfile("./views/group.xml");
+});
+app.use('/group.xsl', function(req, res) {
+     res.sendfile("./views/group.xsl");
+});
 
 app.use('/second', function(req, res) {
   res.render('index',{
