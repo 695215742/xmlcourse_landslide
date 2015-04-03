@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3school.com.cn" targetNamespace="http://www.w3school.com.cn" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="movielist">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="movie" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="film_name" type="xs:string"/>
+							<xs:element name="image" type="xs:string"/>
+							<xs:element name="era" type="xs:string"/>
+							<xs:element name="language" type="xs:string"/>
+							<xs:element name="categories">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="(['剧情' '科幻' '悬疑' '冒险' '喜剧' '动作' '动画' '冒险'
+										'爱情' '奇幻' '惊悚' '犯罪' '战争' '歌舞'])*"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="country" type="xs:string"/>
+							<xs:element name="online_time" type="xs:string"/>
+							<xs:element name="duration" type="xs:string"/>
+							<xs:element name="director" type="xs:string"/>
+							<xs:element name="main_actor" type="xs:string"/>
+							<xs:element name="score" type="xs:string"/>
+							<xs:element name="introduction">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="keyword" type="xs:string"/>
+										<xs:element name="content" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="comment_list">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="comment">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="user_name" type="xs:string"/>
+													<xs:element name="c_content" type="xs:string"/>
+													<xs:element name="c_date" type="xs:string"/>
+												</xs:sequence>
+												<xs:attribute name="id" type="xs:string" use="required"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>	
+							</xs:element>
+							<xs:element name="link" type="xs:string"/>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

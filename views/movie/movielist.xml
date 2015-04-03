@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./movie.xsl"?>
+<!--<movielist xmlns="http://www.w3school.com.cn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3school.com.cn movielist.xsd">-->
+<movielist>
+	<movie id="01">
+		<film_name>星际穿越</film_name>
+		<image>./images/interstellar.jpg</image>
+		<era>2014</era>
+		<language>English</language>
+		<categories>剧情 科幻 悬疑 冒险</categories>
+		<country>美国/英国/加拿大</country>
+		<online_time>
+					2014-11-07(美国)
+					2014-11-12(中国大陆)
+					2014-11-06(香港)
+					2014-11-07(台湾)
+		</online_time>
+		<duration>169 Mins</duration>
+		<director>克里斯多夫诺兰 Christopher Nolan</director>
+		<main_actor>
+		马修麦康纳 Matthew McConaughey/安海瑟葳 Anne Hathaway/洁西卡崔丝妲 Jessica Chastain/米高肯恩 Michael Caine/比尔厄文 Bill Irwin/约翰李施高 John Lithgow /凯西艾佛列克 Casey Affleck/大卫盖亚斯 David Gyasi/卫斯班特力 Wes Bentley
+		</main_actor>
+		<score> 8.8/10 from 478,203 users</score>
+		<introduction>
+			<keyword>最佳视觉特效、最佳妆发、最佳场景设计、最佳混音、最佳音效剪辑</keyword>
+			<content>	近未来的地球黄沙遍野，小麦、秋葵等基础农作物相继因枯萎病灭绝，人类不再像从前那样仰望星空，放纵想象力和灵感的迸发，而是每日在沙尘暴的肆虐下倒数着所剩不多的光景。在家务农的前NASA宇航员库珀（马修·麦康纳 Matthew McConaughey 饰）接连在女儿墨菲（麦肯吉·弗依 Mackenzie Foy 饰）的书房发现奇怪的重力场现象，随即得知在某个未知区域内前NASA成员仍秘密进行一个拯救人类的计划。多年以前土星附近出现神秘虫洞，NASA借机将数名宇航员派遣到遥远的星系寻找适合居住的星球。在布兰德教授（迈克尔·凯恩 Michael Caine 饰）的劝说下，库珀忍痛告别了女儿，和其他三名专家教授女儿艾米莉亚·布兰德（安妮·海瑟薇 Anne Hathaway 饰）、罗米利（大卫·吉雅西 David Gyasi 饰）、多伊尔（韦斯·本特利 Wes Bentley 饰）搭乘宇宙飞船前往目前已知的最有希望的三颗星球考察。 
+　　他们穿越遥远的星系银河，感受了一小时七年光阴的沧海桑田，窥见了未知星球和黑洞的壮伟与神秘。在浩瀚宇宙的绝望而孤独角落，总有一份超越了时空的笃定情怀将他们紧紧相连……
+			</content>
+		</introduction>
+		<comment_list>
+			<comment id="01">
+				<user_name>ISO</user_name>
+				<c_content>非常理想化，所以显得很有种，没有公司敢让任何人拍这样的电影。致敬库布里克的镜头体现了导演的少女心。但有2001珠玉在前，我认为这部顶多和它并驾齐驱。诺兰尽其所能拍出了触手可及的科幻，硬核又充满人性，温情又隐含黑暗面，让人潸然泪下。“理想化”是不是削弱了剧本？大家保留各自意见吧。</c_content>
+				<c_date>2014-11-06</c_date>
+			</comment>
+			<comment id="02">
+				<user_name>比岁月含蓄</user_name>
+				<c_content>时间可以伸缩和折叠，唯独不能倒退。你的鹤发或许是我的童颜，而我一次呼吸能抵过你此生的岁月。
+				</c_content>
+				<c_date>2014-11-06</c_date>
+			</comment>
+		</comment_list>
+		<link>http://music.douban.com/subject/26231384/</link>
+	</movie>
+	<movie id="02">
+		<film_name>超能陆战队</film_name>
+		<image>./images/big_hero_6.jpg</image>
+		<era>2014</era>
+		<language>English</language>
+		<categories>喜剧 动作 科幻 动画 冒险</categories>
+		<country>美国</country>
+		<online_time>2014-11-07(美国)/2015-02-28(中国大陆)</online_time>
+		<duration>102 Mins</duration>
+		<director>唐·霍尔/克里斯·威廉姆斯</director>
+		<main_actor>
+		斯科特·安第斯/瑞恩·波特/丹尼尔·海尼	/T·J·米勒	/杰米·钟/小达蒙·韦恩斯	/珍尼希斯·罗德里格兹/詹姆斯·克伦威尔/艾伦·图代克/玛娅·鲁道夫/亚布拉哈姆·本鲁比/凯蒂·洛斯/比利·布什/丹尼尔·吉尔森/保罗·布里格斯
+		</main_actor>
+		<score>8.1/10 from 73,158 users</score>
+		<introduction>
+			<keyword>发明创造 天才少年 机器人大白 神秘对手</keyword>
+			<content>			未来世界的超级都市旧京山（SanFransokyo），热爱发明创造的天才少年小宏，在哥哥泰迪的鼓励下参加了罗伯特·卡拉汉教授主持的理工学院机器人专业的入学大赛。他凭借神奇的微型磁力机器人赢得观众、参赛者以及考官的一致好评，谁知突如其来的灾难却将小宏的梦想和人生毁于一旦。大火烧毁了展示会场，而哥哥为了救出受困的卡拉汉教授命丧火场。身心饱受创伤的小宏闭门不出，哥哥生前留下的治疗型机器人大白则成为安慰他的唯一伙伴。原以为微型机器人也毁于火灾，谁知小宏和大白竟意外发现有人在某座废弃工厂内大批量地生产他的发明。 
+　　稍后哥哥的朋友们弗雷德等人也加入进来，他们穿上小宏发明的超级战士战斗装备，和怀有险恶阴谋的神秘对手展开较量……
+			</content>
+		</introduction>
+		<comment_list>
+			<comment id="01">
+				<user_name>白日美人</user_name>
+				<c_content>又是一个故事平平只靠细节讨巧的动画，但是没办法，就是超级吃这套啊！！</c_content>
+				<c_date>2014-11-16</c_date>
+			</comment>
+			<comment id="02">
+				<user_name>影志</user_name>
+				<c_content>故事不新鲜，但角色有新意。几处萌点和泪点全部来自大白，大白的陪伴，让人想起的不仅仅是：大熊身边的哆啦A梦、教授帕克的忠犬八公、坚守地球的WALL·E、邻家的多多龙、维克多的科学怪狗、小嗝嗝身边的无牙、库珀身边的机器人Case、山姆身边的Gerty、Wallace身边的Gromit...</c_content>
+				<c_date>2015-01-12</c_date>
+			</comment>
+		</comment_list>
+		<link>http://movie.douban.com/subject/11026735/</link>
+	</movie>
+	<movie id="03">
+		<film_name>灰姑娘</film_name>
+		<image>./images/Cinderella.jpg</image>
+		<era>2015</era>
+		<language>English</language>
+		<categories>剧情 爱情 奇幻 冒险</categories>
+		<country>美国</country>
+		<online_time/>
+		<duration>106 Mins</duration>
+		<director>肯尼思·布拉纳</director>
+		<main_actor>
+		莉莉·詹姆斯 / 海莉·阿特维尔 / 凯特·布兰切特 / 海伦娜·伯翰·卡特 / 理查德·麦登 / 荷丽黛·格兰杰 / 索菲 麦希拉 / 斯特兰·斯卡斯加德 / 侬索·阿诺斯 / 德里克·雅各比 / 本·卓别林 / 罗伯·布莱顿 / 埃洛伊塞·韦伯 / 劳里·卡尔弗特 / 亚历克斯·麦奎因 / 约书亚·麦圭尔 / 王丽雅	
+		</main_actor>
+		<score>7.0 /10 from 26408</score>
+		<introduction>
+			<keyword>童话 后母 折磨 勇气</keyword>
+			<content>
+			母亲离世后，瑞拉（莉莉·詹姆斯 Lily James 饰）的父亲（本·卓别林 Ben Chaplin 饰）再娶了一位后母（凯特·布兰切特 Cate Blanchett饰）。为了支持深爱的父亲，瑞拉热情欢迎后母和她的两位女儿进入自己的家庭。然而当父亲也意外去世后，她才发现自己身陷嫉妒和折磨。瑞拉被后母一家当作女仆对待，还被恶意称作“灰姑娘”。尽管遭受残忍的折磨，瑞拉还是决心坚持母亲的遗言，“保持勇气，善待他人”，因此她不向绝望投降，也不仇恨虐待她的人。后来，瑞拉在树林里遇见了潇洒迷人的陌生人基特（理查德·麦登 Richard Madden 饰），她以为他是王宫随从，却不知他竟是王子。随着王宫向全国少女发出舞会邀请，瑞拉也希望自己能借机再见基特。但是当然，后母不允许她参加舞会，还撕碎了她的裙子。可就如所有美好童话故事里描绘的一样……仙女教母（海伦娜·伯翰·卡特 Helena Bonham Carter 饰）翩然而至，借用一只南瓜和一群小老鼠，永远改变了灰姑娘的人生……
+			</content>
+		</introduction>
+		<comment_list>
+			<comment id="01">
+				<user_name>牛腩羊耳朵</user_name>
+				<c_content>蓝色裙摆飞起来的时候真是少女心全部满足！布兰切特加戏不断，气场太强！</c_content>
+				<c_date>2015-02-14</c_date>
+			</comment>
+			<comment id="02">
+				<user_name>柚子茶</user_name>
+				<c_content>作为一名男生 看完想穿水晶鞋怎么办 在线等 _(:з」∠)_ （鉴于短评里有个莫名其妙的人说打四星不是少女心就是有少女心的基佬 那我打五星好了）
+				</c_content>
+				<c_date>2015-02-02</c_date>
+			</comment>
+			<comment id="03">
+				<user_name>秋水与秋雨</user_name>
+				<c_content>精灵女王演恶毒继母，哥特女王演仙女教母，这两个女配角不用看都觉得比女主角抢戏和亮眼，还不如让她们当主角，来个正邪女王大对决！</c_content>
+				<c_date>2014-12-04</c_date>
+			</comment>
+		</comment_list>
+		<link>http://movie.douban.com/subject/6875263</link>
+	</movie>
+	<movie id="04">
+		<film_name>飓风营救</film_name>
+		<image>./images/taken.jpg</image>
+		<era>2014</era>
+		<language>英语 / 俄语</language>
+		<categories> 动作 惊悚 犯罪</categories>
+		<country>法国</country>
+		<online_time>2015-03-20(中国大陆) / 2014-12-16(柏林首映) / 2015-01-21(法国)</online_time>
+		<duration>109 Mins</duration>
+		<director>奥利维尔·米加顿</director>
+		<main_actor>
+		连姆·尼森 / 福里斯特·惠特克 / 法米克·詹森 / 玛姬·格蕾斯 / 多格雷·斯科特 / 萨姆·斯普卢尔 / 唐·哈维 / 丹兰·布鲁诺 / 勒兰德·奥瑟 / 大卫·沃肖夫斯基 / 强·格瑞斯 / 约翰尼·韦斯顿 / 安德鲁·博尔巴 / 朱迪·比彻 / 安德鲁·霍华德
+		</main_actor>
+		<score>6.2 / 10 from 8279 users</score>
+		<introduction>
+			<keyword>前中情局探员 拯救 保护 追缉</keyword>
+			<content>	前中情局探员布莱恩（连姆·尼森LiamNeeson饰）这次要拯救的不是被绑架的家人，而是他自己。布莱恩发现前妻遭受到残忍地杀害，自己竟被诬陷为杀妻的凶手。悲愤又失落的他为了洗刷冤屈，必须使出浑身解数，找出真相并揪出杀人凶手，同时还得躲避中情局、联邦调查局和警方的多方追缉；除此之外，更重要的任务，就是保护他身边唯一所剩并是最重要的亲人——他的女儿（玛姬·格蕾斯 Maggie Grace 饰）……</content>
+		</introduction>
+		<comment_list>
+			<comment id="01">
+				<user_name>Fan</user_name>
+				<c_content>就冲这个,我 Liam大叔已经63了(快爷爷了/瀑布汗)依然能打能斗身手了得干净利索</c_content>
+				<c_date>2015-01-31</c_date>
+			</comment>
+			<comment id="02">
+				<user_name>zykmilan </user_name>
+				<c_content>片头做得好惊艳！比2好在有更多伯恩的味道而不是一味打打杀杀救女儿/老婆。结尾小反转虽然并不高明但很讨喜。看在年过六十的连姆大叔还在玩命打，以及系列中这命途多舛的家庭（女儿被绑、老婆被绑、老婆被杀…我要哭了）的份上也得给好评啊。。。</c_content>
+				<c_date>2015-01-04</c_date>
+			</comment>
+		</comment_list>
+		<link>http://movie.douban.com/subject/20277632/</link>
+	</movie>
+</movielist>

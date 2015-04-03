@@ -35,6 +35,12 @@ app.use('/index', function(req, res) {
 	 );
 });
 //test xsl
+app.use('/movie', function(req, res) {
+     res.sendfile("./views/movie/movielist.xml");
+});
+app.use('/movie.xsl', function(req, res) {
+     res.sendfile("./views/movie/movielist.xsl");
+});
 app.use('/animation', function(req, res) {
      res.sendfile("./views/animation/Animation.xml");
 });
@@ -74,24 +80,13 @@ app.use('/third', function(req, res) {
 
 
 // catch group
-app.use('/music', function(req, res) {
-   res.render('group_index',{
-		groupname:"音乐"
-	 }
-	 );
-});
 app.use('/tv', function(req, res) {
    res.render('group_index',{
 		groupname:"电视"
 	 }
 	 );
 });
-app.use('/movie', function(req, res) {
-   res.render('group_index',{
-		groupname:"电影"
-	 }
-	 );
-});
+
 
 
 
