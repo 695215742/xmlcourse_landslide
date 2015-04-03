@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="master" page-width="794px" page-height="1123px">
+			<fo:region-body/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:page-sequence master-reference="master">
+		<fo:flow flow-name="xsl-region-body">
+			<fo:block-container background-color="rgb(245, 245, 245)">
+				<fo:block-container>
+					<fo:block>
+						<fo:external-graphic src="url(image/boy.jpg)"/>
+					</fo:block>
+				</fo:block-container>
+				<!--上面两个-->
+				<fo:block-container>
+					<!--上面左边-->
+					<fo:block-container position="relative" width="314px" height="248px" font-family="Microsoft YaHei" margin-left="10px">
+						<fo:block-container color="#333" line-height="30px" font-size="23px" margin-top="50px">
+							<fo:block>全球首张45转黑胶唱片</fo:block>
+						</fo:block-container>
+						<fo:block-container width="223px" color="#8b8b8b" line-height="20px" font-size="12px" margin-top="20px">
+							<fo:block>创建人：音乐百科</fo:block>
+						</fo:block-container>
+						<fo:block-container width="223px" color="#8b8b8b" line-height="20px" font-size="12px" margin-top="20px">
+							<fo:block>创建时间：2015-03-30</fo:block>
+						</fo:block-container>
+						<fo:block-container width="270px" color="#8b8b8b" line-height="20px" font-size="12px" margin-top="20px">
+							<fo:block>标签：经典好歌 流行 英语 致青春 宣泄</fo:block>
+						</fo:block-container>
+					</fo:block-container>
+					<!--上面右边-->
+					<fo:block-container absolute-position="absolute" left="380px" top="30px" font-family="Microsoft YaHei" color="#8b8b8b" width="350px">
+						<fo:block font-size="30px">歌曲简介：</fo:block>
+						<fo:block space-before="20px">    1949年3月31日，世界上首张每分钟45转的黑胶唱片发行。和多数人观念中黑胶唱片就是黑色不同，这张由RCA公司发行的乡村/西部歌手Eddy Arnold的单曲碟《Texarkana Baby》其实是用绿色的乙烯塑料制成的。在那个年代，黑胶唱片实际上通过不同的颜色来区分音乐的类别，红色的是古典音乐，黄色的则是儿童歌曲。黑胶唱片的规格中，对音质影响最大的就是转速了，初期技术条件不高，只能提高转速增长音轨来保证唱片的音质，当时黑胶唱片的转速标准被定为每分钟78转，这种黑胶唱片就被称为标准播放(Standard-Playing），简称“SP”，它每面只能记录5分钟左右的音频信息，随着技术的发展，一种每分钟45转的黑胶唱片问世了，因为它所记录的音频信息要比78转的唱片延长很多，因此被定义为延长播放（Extended Playing），简称为“EP”。</fo:block>
+					</fo:block-container>
+				</fo:block-container>
+				<fo:block-container>
+					<fo:block>
+						<fo:external-graphic src="url(image/music_list.png)"/>
+					</fo:block>
+				</fo:block-container>
+				<!--歌曲列表-->
+				<fo:block-container width="794px" height="250px" font="Microsoft YaHei" background-color="white" margin-top="20px" margin-bottom="20px" font-family="Microsoft YaHei">
+					<!--左侧-->
+					<fo:block-container margin-left="25px" margin-top="20px">
+						<fo:block-container>
+							<fo:block>
+								<fo:external-graphic src="url(image/It's My Life.jpg)"/>
+							</fo:block>
+							<fo:block font-size="20px" color="#0c8f44">It's My Life</fo:block>
+						</fo:block-container>
+						<fo:block-container>
+							<fo:block-container>
+								<fo:block margin-left="-27px">
+									<fo:external-graphic src="url(image/play.png)"/>
+								</fo:block>
+							</fo:block-container>
+							<fo:block-container color="#8b8b8b" absolute-position="absolute" left="27px">
+								<fo:block>文件大小：9.19MB</fo:block>
+								<fo:block>时长：4:00.960</fo:block>
+								<fo:block>采样率：44100Hz</fo:block>
+								<fo:block>声道数：2</fo:block>
+							</fo:block-container>
+						</fo:block-container>
+					</fo:block-container>
+					<!--右侧-->
+					<fo:block-container absolute-position="absolute" width="350px" font-size="16px" left="380px" top="70px" background-color="rgb(245, 245, 245)" padding="10px" line-height="24px" padding-left="20px">
+						<fo:block>
+							<fo:inline color="#0c8f44">艺术家：</fo:inline>
+							<fo:inline color="#8b8b8b">Bon Jovi</fo:inline>
+						</fo:block>
+						<fo:block>
+							<fo:inline color="#0c8f44">发行日期：</fo:inline>
+							<fo:inline color="#8b8b8b">2015-02-19</fo:inline>
+						</fo:block>
+						<fo:block>
+							<fo:inline color="#0c8f44">流派：</fo:inline>
+							<fo:inline color="#8b8b8b">Soundtrack</fo:inline>
+						</fo:block>
+						<fo:block>
+							<fo:inline color="#0c8f44">作曲：</fo:inline>
+							<fo:inline color="#8b8b8b">Bon Jovi</fo:inline>
+						</fo:block>
+					</fo:block-container>
+				</fo:block-container>
+				<fo:block-container width="794px" height="250px" font="Microsoft YaHei" background-color="white" margin-top="20px" margin-bottom="20px" font-family="Microsoft YaHei">
+					<!--左侧-->
+					<fo:block-container margin-left="25px" margin-top="20px">
+						<fo:block-container>
+							<fo:block>
+								<fo:external-graphic src="url(image/We Are One.jpg)"/>
+							</fo:block>
+							<fo:block font-size="20px" color="#0c8f44">What Makes You Beautiful</fo:block>
+						</fo:block-container>
+						<fo:block-container>
+							<fo:block-container>
+								<fo:block margin-left="-27px">
+									<fo:external-graphic src="url(image/play.png)"/>
+								</fo:block>
+							</fo:block-container>
+							<fo:block-container color="#8b8b8b" absolute-position="absolute" left="27px">
+								<fo:block>文件大小：9.19MB</fo:block>
+								<fo:block>时长：4:00.960</fo:block>
+								<fo:block>采样率：44100Hz</fo:block>
+								<fo:block>声道数：2</fo:block>
+							</fo:block-container>
+						</fo:block-container>
+					</fo:block-container>
+					<!--右侧-->
+					<fo:block-container absolute-position="absolute" width="350px" font-size="16px" left="380px" top="70px" background-color="rgb(245, 245, 245)" padding="10px" line-height="24px" space-before="30px">
+						<fo:block>
+							<fo:inline color="#0c8f44">艺术家：</fo:inline>
+							<fo:inline color="#8b8b8b">One Direction</fo:inline>
+						</fo:block>
+						<fo:block>
+							<fo:inline color="#0c8f44">发行日期：</fo:inline>
+							<fo:inline color="#8b8b8b">2015-02-19</fo:inline>
+						</fo:block>
+						<fo:block>
+							<fo:inline color="#0c8f44">流派：</fo:inline>
+							<fo:inline color="#8b8b8b">Soundtrack</fo:inline>
+						</fo:block>
+						<fo:block>
+							<fo:inline color="#0c8f44">作曲：</fo:inline>
+							<fo:inline color="#8b8b8b">One Direction</fo:inline>
+						</fo:block>
+					</fo:block-container>
+				</fo:block-container>
+			</fo:block-container>
+		</fo:flow>
+	</fo:page-sequence>
+</fo:root>

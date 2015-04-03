@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="music_list.xslt"?>
+<!--<?xml-stylesheet type="text/css" href="music_list.css"?>-->
+<!--<!DOCTYPE music_list SYSTEM "music_list.dtd">
+<music_list>-->
+<music_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="music_list.xsd">
+	<music_list_info>
+		<music_list_name>全球首张45转黑胶唱片问世</music_list_name>
+		<creator>音乐百科</creator>
+		<create_date>2015-03-30</create_date>
+		<tag>经典好歌 流行 英语 致青春 宣泄</tag>
+		<description>1949年3月31日，世界上首张每分钟45转的黑胶唱片发行。和多数人观念中黑胶唱片就是黑色不同，这张由RCA公司发行的乡村/西部歌手Eddy Arnold的单曲碟《Texarkana Baby》其实是用绿色的乙烯塑料制成的。在那个年代，黑胶唱片实际上通过不同的颜色来区分音乐的类别，红色的是古典音乐，黄色的则是儿童歌曲。黑胶唱片的规格中，对音质影响最大的就是转速了，初期技术条件不高，只能提高转速增长音轨来保证唱片的音质，当时黑胶唱片的转速标准被定为每分钟78转，这种黑胶唱片就被称为标准播放(Standard-Playing），简称“SP”，它每面只能记录5分钟左右的音频信息，随着技术的发展，一种每分钟45转的黑胶唱片问世了，因为它所记录的音频信息要比78转的唱片延长很多，因此被定义为延长播放（Extended Playing），简称为“EP”。虽然今天黑胶唱片已经没有往日那么风光，但是重温这些曾在黑胶时代创下至少超过两千万张销量的经典专辑，你还是能被它实实在在的魅力打动。
+收回</description>
+		<music_list_booklet>1.jpg</music_list_booklet>
+	</music_list_info>
+	<music id="1">
+		<metadata>
+			<artist_name>やまだ豊</artist_name>
+			<track_title>On My Own</track_title>
+			<album_title>TVアニメ「東京喰種」オリジナル・サウンドトラック - EP</album_title>
+			<date>2015-02-19</date>
+			<genre>Soundtrack</genre>
+			<composer>やまだ豊</composer>
+			<track_number>1</track_number>
+			<total_tracks>3</total_tracks>
+			<comment>很棒的音乐</comment>
+			<booklet>Booklet 01.jpg</booklet>
+		</metadata>
+		<general>
+			<file_name>On My Own.mp3</file_name>
+			<file_size>9.19 MB</file_size>
+			<duration>4:00.960</duration>
+			<sample_rate>44100 Hz</sample_rate>
+			<channels>2</channels>
+			<bitrate>320 kbps</bitrate>
+		</general>
+	</music>
+	<music id="2">
+		<metadata>
+			<artist_name>やまだ豊</artist_name>
+			<track_title>Glassy Sky</track_title>
+			<album_title>TVアニメ「東京喰種」オリジナル・サウンドトラック - EP</album_title>
+			<date>2015-02-19</date>
+			<genre>Soundtrack</genre>
+			<composer>やまだ豊</composer>
+			<track_number>2</track_number>
+			<total_tracks>3</total_tracks>
+			<comment/>
+			<booklet>Booklet 01.jpg</booklet>
+		</metadata>
+		<general>
+			<file_name>Glassy Sky.mp3</file_name>
+			<file_size>11.2 MB</file_size>
+			<duration>4:54.813</duration>
+			<sample_rate>44100 Hz</sample_rate>
+			<channels>2</channels>
+			<bitrate>320 kbps</bitrate>
+		</general>
+	</music>
+	<music id="3">
+		<metadata>
+			<artist_name>やまだ豊</artist_name>
+			<track_title>TG Symphonie</track_title>
+			<album_title>TVアニメ「東京喰種」オリジナル・サウンドトラック - EP</album_title>
+			<date>2015-02-19</date>
+			<genre>Soundtrack</genre>
+			<composer>やまだ豊</composer>
+			<track_number>3</track_number>
+			<total_tracks>3</total_tracks>
+			<comment/>
+			<booklet>Booklet 01.jpg</booklet>
+		</metadata>
+		<general>
+			<file_name>TG Symphonie.mp3</file_name>
+			<file_size>16.2 MB</file_size>
+			<duration>7:05.413</duration>
+			<sample_rate>44100 Hz</sample_rate>
+			<channels>2</channels>
+			<bitrate>320 kbps</bitrate>
+		</general>
+	</music>
+</music_list>

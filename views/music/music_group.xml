@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="music_group.xslt"?>
+<music_group xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="music_group.xsd">
+	<logo>justMusic.png</logo>
+	<members>
+		<member>
+			<stuID>71Y12124</stuID>
+			<name>蒋志远</name>
+			<email>1130404934@qq.com</email>
+		</member>
+		<member>
+			<stuID>71Y12126</stuID>
+			<name>陈冰阳</name>
+			<email>eretion@vip.qq.com</email>
+		</member>
+	</members>
+	<description>
+		我们负责对于音乐信息模块进行编写,
+		蒋志远负责css样式编写以及xstl的转化,
+		陈冰阳负责fo文件的编写以及Pdf的转化.
+	</description>
+</music_group>

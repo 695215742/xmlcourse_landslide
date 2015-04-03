@@ -35,11 +35,17 @@ app.use('/index', function(req, res) {
 	 );
 });
 //test xsl
-app.use('/animationtest', function(req, res) {
+app.use('/animation', function(req, res) {
      res.sendfile("./views/animation/Animation.xml");
 });
 app.use('/Animation.xsl', function(req, res) {
      res.sendfile("./views/animation/Animation.xsl");
+});
+app.use('/music', function(req, res) {
+     res.sendfile("./views/music/music_list.xml");
+});
+app.use('/music_list.xslt', function(req, res) {
+     res.sendfile("./views/music/music_list.xslt");
 });
 app.use('/group', function(req, res) {
      res.sendfile("./views/group.xml");
@@ -77,12 +83,6 @@ app.use('/music', function(req, res) {
 app.use('/tv', function(req, res) {
    res.render('group_index',{
 		groupname:"电视"
-	 }
-	 );
-});
-app.use('/animation', function(req, res) {
-   res.render('group_index',{
-		groupname:"动漫"
 	 }
 	 );
 });

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2015 rel. 3 (x64) (http://www.altova.com) by 123 (123) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="logo" type="xs:string"/>
+	<xs:element name="stuID" type="xs:string"/>
+	<xs:element name="name" type="xs:string"/>
+	<xs:element name="email">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="[a-zA-Z0-9]*@[a-zA-Z0-9]*.[a-zA-Z0-9]*.[a-zA-Z0-9]*"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="description" type="xs:string"/>
+	<xs:element name="member">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="stuID"/>
+				<xs:element ref="name"/>
+				<xs:element ref="email"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="members">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="member" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="music_group">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="logo"/>
+				<xs:element ref="members"/>
+				<xs:element ref="description"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

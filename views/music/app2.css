@@ -1,0 +1,25 @@
+body{
+	background-color:#f5f5f5;
+background:url('image/bg.jpg');
+	font-family:"Microsoft YaHei";
+}
+
+.music_group{
+margin:0 auto;
+	background-color:#f5f5f5;
+	font-family:"Microsoft YaHei";
+	width:720px;
+}
+
+.member{
+	display:inline-block;
+	padding:0px 50px;;
+}
+
+.description{
+	text-align:left;
+	text-indent:24px;
+	background-color:#ed473b;
+	padding:10px 10px;
+	color:#ffea33;
+}

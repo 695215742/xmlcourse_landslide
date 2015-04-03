@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="master" page-width="210mm" page-height="297mm" margin-top="0" margin-bottom="0" margin-left="0" margin-right="0">
+			<fo:region-body margin="0"/>
+			<fo:region-before extent="0"/>
+			<fo:region-after extent="0"/>
+			<fo:region-start extent="0"/>
+			<fo:region-end extent="0"/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:page-sequence master-reference="master">
+		<fo:flow flow-name="xsl-region-body">
+			<fo:block-container>
+				<fo:block>
+					<fo:external-graphic src="image/justMusic.png"/>
+				</fo:block>
+				<fo:block-container>
+					<fo:block>71Y12124</fo:block>
+					<fo:block>蒋志远</fo:block>
+					<fo:block>1130404934@qq.com</fo:block>
+					<fo:block>71Y12126</fo:block>
+					<fo:block>陈冰阳</fo:block>
+					<fo:block>eretion@vip.qq.com</fo:block>
+				</fo:block-container>
+				<fo:block>
+		我们负责对于音乐信息模块进行编写,
+		蒋志远负责css样式编写以及xstl的转化,
+		陈冰阳负责fo文件的编写以及Pdf的转化.
+	</fo:block>
+			</fo:block-container>
+		</fo:flow>
+	</fo:page-sequence>
+</fo:root>

@@ -1,0 +1,201 @@
+body{
+	background-color:#f5f5f5;
+background:url('image/bg.jpg');
+	font-family:"Microsoft YaHei";
+}
+.music_list_info,.music_list,.album_mlist_tt{
+	margin:0 auto;
+	background-color:#f5f5f5;
+	font-family:"Microsoft YaHei";
+	width:720px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.music_list_info img{
+width: 720px;
+height:336px;
+}
+.album_mlist_tt{
+	height: 30px;
+}
+
+.album_mlist_tt img{
+	display:block;
+
+}
+
+.album_cover {
+float: left;
+width: 300px;
+height: 300px;
+margin: 0 20px 0 0;
+overflow: hidden;
+}
+
+.album_text {
+float: left;
+width: 380px;
+height: 300px;
+position: relative;
+padding:10px 10px;
+}
+
+.album_text h2 {
+max-height: 72px;
+_height: 72px;
+line-height: 36px;
+width: 380px;
+margin: 80px 0 0 14px;
+font-family: "Microsoft YaHei";
+font-size: 28px;
+color: #333;
+font-weight: normal;
+overflow: hidden;}
+
+
+.album_text p {
+line-height: 24px;
+width: 270px;
+overflow: hidden;
+color: #8B8B8B;
+font-size: 12px;
+}
+
+.album_detail {
+/*clear: both;*/
+padding: 20px 5px;
+position: relative;
+color: #8B8B8B;
+font-size: 12px;
+height:336px;
+overflow:hidden;
+text-indent:24px;
+}
+
+.album_detail p {
+line-height: 24px;
+word-wrap: break-word;
+color: #8B8B8B;
+font-size: 12px;
+}
+.music{
+	display:block;
+	border-radius:2px;
+	margin: 20px 0;
+	padding: 20px;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.green{
+color:#0c8f44;
+}
+
+.metadata{
+	display:block;
+	float:right;
+	margin-left:10px;
+	width:200px;
+	-webkit-animation:wobble .2s ease-in;
+	animation:wobble .2s ease-in;
+	background-color:#f5f5f5;
+	border-radius:2px;
+	padding:10px;
+	box-shadow: inset 1px 1px rgba(0,0,0,0.4);
+	width:400px;
+}
+.file_info{
+margin-left:5px;
+float:left;
+}
+.general{
+	display:block;
+	float:left;
+	width:250px;
+	color:#666;
+margin-bottom:20px;
+}
+
+
+.artist_name{
+	font-size:17px;
+	display:block;
+	color: #8B8B8B;
+}
+
+.track_title{
+	font-size:17px;
+	display:block;
+
+}
+.album_title{
+	display:block;
+	font-size: 14px;
+	line-height: 1.3;
+	color: #0c8f44;
+}
+.date{
+	display:block;
+	font-size:17px;
+	color: #8B8B8B;
+}
+.genre{
+	display:block;
+	font-size:17px;
+	color: #8B8B8B;
+}
+.composer{
+	display:block;
+	font-size:17px;
+	color: #8B8B8B;
+}
+.track_number{
+	display:inline;
+}
+.total_tracks{
+
+}
+.comment{
+    clear:both;
+	display:block;
+	margin-left:10px;
+	border-top-color:#ccc;
+	border-style: solid  none none  none;
+	border-width:1px;
+}
+
+.file_name{
+	margin-bottom: 10px;
+	font-size: 20px;
+	line-height: 1.3;
+	color:#0c8f44;
+	display:block;
+}
+.file_size{
+
+	font-size:10px;
+	margin-left:20px;
+	display:block;
+}
+.duration{
+	display:inline-block;
+	font-size:10px;
+	margin-left:20px;
+}
+.sample_rate{
+	display:block;
+	margin-left:20px;
+	font-size:10px;
+}
+.channels{
+	display:block;
+	margin-left:20px;
+	font-size:10px;
+}
+.bitrate{
+	display:block;
+	margin-left:20px;
+	font-size:10px;
+}

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!-- 简易元素的定义 -->
+	<xs:element name="music_list_name" type="xs:string"/>
+	<xs:element name="creator" type="xs:string"/>
+	<xs:element name="create_date" type="xs:string"/>
+	<xs:element name="tag" type="xs:string"/>
+	<xs:element name="description" type="xs:string"/>
+	<xs:element name="music_list_booklet" type="xs:string"/>
+	<xs:element name="booklet" type="xs:string"/>
+	<xs:element name="artist_name" type="xs:string"/>
+	<xs:element name="track_title" type="xs:string"/>
+	<xs:element name="album_title" type="xs:string"/>
+	<xs:element name="date" type="xs:date"/>
+	<xs:element name="genre">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Alternative"/>
+				<xs:enumeration value="Books &amp; Spoken"/>
+				<xs:enumeration value="Blues/R&amp;B"/>
+				<xs:enumeration value="Children’s Music"/>
+				<xs:enumeration value="Classical"/>
+				<xs:enumeration value="Country"/>
+				<xs:enumeration value="Dance"/>
+				<xs:enumeration value="Easy Listening"/>
+				<xs:enumeration value="Electronic"/>
+				<xs:enumeration value="Folk"/>
+				<xs:enumeration value="House"/>
+				<xs:enumeration value="Industrial"/>
+				<xs:enumeration value="Techno"/>
+				<xs:enumeration value="Trance"/>
+				<xs:enumeration value="Hip Hop/Rap"/>
+				<xs:enumeration value="Holiday"/>
+				<xs:enumeration value="Jazz"/>
+				<xs:enumeration value="New Age"/>
+				<xs:enumeration value="Pop"/>
+				<xs:enumeration value="Religious"/>
+				<xs:enumeration value="Rock"/>
+				<xs:enumeration value="Soundtrack"/>
+				<xs:enumeration value="Unclassifiable"/>
+				<xs:enumeration value="World"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="composer" type="xs:string"/>
+	<xs:element name="track_number">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="total_tracks">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="comment" type="xs:string"/>
+	<xs:element name="file_name" type="xs:string"/>
+	<xs:element name="file_size">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="(([1-9][0-9]*)|[0]).[0-9]* MB"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="duration">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="(([1-9][0-9]*)|[0]):[0-9]{2}.[0-9]{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="sample_rate">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="(([1-9][0-9]*)|[0]) Hz"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="channels">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:pattern value="1|2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="bitrate">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="(([1-9][0-9]*)|[0]) kbps"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<!-- 属性的定义 -->
+	<xs:attribute name="id" type="xs:integer"/>
+	<!-- 复合元素的定义 -->
+	<xs:element name="metadata">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="artist_name"/>
+				<xs:element ref="track_title"/>
+				<xs:element ref="album_title"/>
+				<xs:element ref="date"/>
+				<xs:element ref="genre"/>
+				<xs:element ref="composer"/>
+				<xs:element ref="track_number"/>
+				<xs:element ref="total_tracks"/>
+				<xs:element ref="comment"/>
+				<xs:element ref="booklet"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="general">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="file_name"/>
+				<xs:element ref="file_size"/>
+				<xs:element ref="duration"/>
+				<xs:element ref="sample_rate"/>
+				<xs:element ref="channels"/>
+				<xs:element ref="bitrate"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="music">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="metadata"/>
+				<xs:element ref="general"/>
+			</xs:sequence>
+			<xs:attribute ref="id" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="music_list_info">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="music_list_name"/>
+				<xs:element ref="creator"/>
+				<xs:element ref="create_date"/>
+				<xs:element ref="tag"/>
+				<xs:element ref="description"/>
+				<xs:element ref="music_list_booklet"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="music_list">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="music_list_info"/>
+				<xs:element ref="music" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
