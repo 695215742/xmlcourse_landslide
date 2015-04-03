@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Animations     (Animation+)>
+<!ATTLIST Animation id CDATA #REQUIRED>
+<!ELEMENT Animation      (General,Musics,Characters)>
+<!ELEMENT General       
+ (Name,Kind,Original,Picture,Country,Company,Sets,Duration_av,Director,Character_designer,Coordinate,Date,Introduction)>
+<!ELEMENT Name          		(#PCDATA)>
+<!ELEMENT Kind         		 	(#PCDATA)>
+<!ELEMENT Original     		 	(#PCDATA)>
+<!ELEMENT Picture       		(#PCDATA)>
+<!ELEMENT Country      		 	(#PCDATA)>
+<!ELEMENT Company       		(#PCDATA)>
+<!ELEMENT Sets      			(#PCDATA)>
+<!ELEMENT Duration_av     		(#PCDATA)>
+<!ELEMENT Director      		(#PCDATA)>
+<!ELEMENT Character_designer    (#PCDATA)>
+<!ELEMENT Coordinate         	(#PCDATA)>
+<!ELEMENT Date         			(#PCDATA)>
+<!ELEMENT Introduction        	(#PCDATA)>
+<!ELEMENT Musics     			(Music+)>
+<!ATTLIST Music id CDATA #REQUIRED>    
+<!ELEMENT Music
+(Music_name,Music_type,Artist_name)>
+<!ELEMENT Music_name       		(#PCDATA)>
+<!ELEMENT Music_type     		(#PCDATA)>
+<!ELEMENT Artist_name     		(#PCDATA)>
+<!ELEMENT Characters    		(Character+)>
+<!ATTLIST Character id CDATA #REQUIRED> 
+<!ELEMENT Character
+(Ch_name,Ch_gender,Ch_picture,Ch_introduction,Voice_actor)>
+<!ELEMENT Ch_name      			(#PCDATA)>
+<!ELEMENT Ch_gender   			(#PCDATA)>
+<!ELEMENT Ch_picture    		(#PCDATA)>
+<!ELEMENT Ch_introduction    	(#PCDATA)>
+<!ELEMENT Voice_actor     		(#PCDATA)>

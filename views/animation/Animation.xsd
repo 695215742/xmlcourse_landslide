@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xs:element name="Name" type="xs:string"/>
+<xs:element name="Kind">
+	<xs:simpleType>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="格斗"/>
+			<xs:enumeration value="恋爱"/>
+			<xs:enumeration value="穿越"/>
+			<xs:enumeration value="搞笑"/>
+			<xs:enumeration value="校园"/>
+			<xs:enumeration value="机甲"/>
+			<xs:enumeration value="后宫"/>
+			<xs:enumeration value="血腥"/>
+			<xs:enumeration value="音乐"/>
+			<xs:enumeration value="变身"/>
+			<xs:enumeration value="推理"/>
+			<xs:enumeration value="恐怖"/>
+			<xs:enumeration value="热血"/>
+			<xs:enumeration value="黑暗"/>
+			<xs:enumeration value="百合"/>
+			<xs:enumeration value="魔法"/>
+			<xs:enumeration value="治愈"/>
+			<xs:enumeration value="纯爱"/>
+			<xs:enumeration value="哲理"/>
+			<xs:enumeration value="青春"/>
+			<xs:enumeration value="美少女"/>
+			<xs:enumeration value="超能力"/>
+			<xs:enumeration value="历史"/>
+			<xs:enumeration value="世界观"/>
+			<xs:enumeration value="恶搞"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:element>
+<xs:element name="Original" type="xs:string"/>
+<xs:element name="Picture" type="xs:string"/>
+<xs:element name="Country" type="xs:string"/>
+<xs:element name="Company" type="xs:string"/>
+<xs:element name="Director" type="xs:string"/>
+<xs:element name="Sets">
+	<xs:simpleType>
+		<xs:restriction base = "xs:integer">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="1000"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:element>
+<xs:element name="Duration_av">
+	<xs:simpleType>
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="120"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:element>
+<xs:element name="Derector" type="xs:string"/>
+<xs:element name="Character_designer" type="xs:string"/>
+<xs:element name="Coordinate" type="xs:string"/>
+<xs:element name="Introduction" type="xs:string"/>
+<xs:element name="Date" type="xs:date"/>
+<xs:element name="Music_name" type="xs:string"/>
+<xs:element name="Music_type">
+	<xs:simpleType>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Starting Theme"/>
+			<xs:enumeration value="Ending Theme"/>
+			<xs:enumeration value="Interlude"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:element>
+<xs:element name="Artist_name" type="xs:string"/>
+<xs:element name="Ch_name" type="xs:string"/>
+<xs:element name="Ch_gender">
+	<xs:simpleType>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="female"/>
+			<xs:enumeration value="male"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:element>
+<xs:element name="Ch_picture" type="xs:string"/>
+<xs:element name="Ch_introduction" type="xs:string"/>
+<xs:element name="Voice_actor" type="xs:string"/>
+
+<xs:attribute name="id" type="xs:integer"/>
+
+<xs:element name="General">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="Name"/>
+			<xs:element ref="Kind"/>
+			<xs:element ref="Original"/>
+			<xs:element ref="Picture"/>
+			<xs:element ref="Country"/>
+			<xs:element ref="Company"/>
+			<xs:element ref="Sets"/>
+			<xs:element ref="Duration_av"/>
+			<xs:element ref="Director"/>
+			<xs:element ref="Character_designer"/>
+			<xs:element ref="Coordinate"/>
+			<xs:element ref="Date"/>
+			<xs:element ref="Introduction"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+<xs:element name="Music">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="Music_name"/>
+			<xs:element ref="Music_type"/>
+			<xs:element ref="Artist_name"/>
+		</xs:sequence>
+		<xs:attribute ref="id" use="required"/>
+	</xs:complexType>
+</xs:element>
+<xs:element name="Character">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="Ch_name"/>
+			<xs:element ref="Ch_gender"/>
+			<xs:element ref="Ch_picture"/>
+			<xs:element ref="Ch_introduction"/>
+			<xs:element ref="Voice_actor"/>
+		</xs:sequence>
+		<xs:attribute ref="id" use="required"/>
+	</xs:complexType>
+</xs:element>
+<xs:element name="Musics">
+	<xs:complexType>
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element ref="Music"/>
+		</xs:choice>
+	</xs:complexType>
+</xs:element>
+<xs:element name="Characters">
+	<xs:complexType>
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element ref="Character"/>
+		</xs:choice>
+	</xs:complexType>
+</xs:element>
+<xs:element name="Animation">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="General"/>
+			<xs:element ref="Musics"/>
+			<xs:element ref="Characters"/>
+		</xs:sequence>
+		<xs:attribute ref="id" use="required"/>
+	</xs:complexType>
+</xs:element>
+<xs:element name="Animations">
+	<xs:complexType>
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element ref="Animation"/>
+		</xs:choice>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

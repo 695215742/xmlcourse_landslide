@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./Animation.xsl"?>
+<Animations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./Animation.xsd">
+	<Animation id = "1">
+		<General>
+			<Name>CLANNAD</Name>
+			<SE_name>#CLANNAD</SE_name>
+			<Kind>恋爱</Kind>
+			<Original>Key</Original>
+			<Picture1>./images/clannad_bg_1.jpg</Picture1>
+			<Picture2>./images/clannad_bg_2.jpg</Picture2>
+			<Picture3>./images/clannad_bg_3.jpg</Picture3>
+			<Country>日本</Country>
+			<Company>京都动画</Company>
+			<Sets>44</Sets>
+			<Duration_av>26</Duration_av>
+			<Director>石原立也</Director>
+			<Character_designer>池田和美</Character_designer>
+			<Coordinate>樋上いたる</Coordinate>
+			<Date>2007-10-04</Date>
+			<Introduction>
+			在某个小镇，主角冈崎朋也因为家庭的因素成为不良少年，一直与春原阳平为伍，在光坂高校过着潦倒的生活，
+			但冀望终有一天能够离开所在的小镇。某一天，他在学校坡道前发现了一个止步不前的女孩，在朋也认识了这
+			个名为“古河渚”的女孩后，他的生活开始有了重大的变化。
+			前半为主角和女主角们之间所发生的事件，后半After story为主角在中学毕业之后，与渚共同生活的日子，
+			其中还穿插了“幻想世界”，《CLANNAD》就是由这三个要素所组成的故事。
+			</Introduction>
+		</General>
+		<Musics>
+			<Music id = "1">
+				<Music_name>メグメル</Music_name>
+				<Music_type>Starting Theme</Music_type>
+				<Artist_name>eufonius</Artist_name>
+			</Music>
+			<Music id = "2">
+				<Music_name>だんご大家族</Music_name>
+				<Music_type>Ending Theme</Music_type>
+				<Artist_name>eufonius</Artist_name>
+			</Music>
+		</Musics>
+		<Characters>
+			<Character id = "1">
+				<Ch_name>古河渚</Ch_name>
+				<Ch_gender>female</Ch_gender>
+				<Ch_picture>./images/clannad_ch1.jpg</Ch_picture>
+				<Ch_introduction>
+				就读光坂高中的3年B班，比朋也大一岁，因为久病复读一年，对于即将面对的新环境存在陌生的恐惧而
+				在往校门前的坡道上不敢前行，也成为了和朋也相遇并熟识的契机。家里开面包店，有个直爽的父亲和
+				温柔的母亲，拥有温馨的家庭环境。个性温柔单纯，缺乏自信，不过有时却意外的顽固。
+				</Ch_introduction>
+				<Voice_actor>中原麻衣</Voice_actor>
+			</Character>
+			<Character id = "2">
+				<Ch_name>冈崎朋也</Ch_name>
+				<Ch_gender>male</Ch_gender>
+				<Ch_picture>./images/clannad_ch2.jpg</Ch_picture>
+				<Ch_introduction>
+				就读光坂高中的3年D班，5岁时母亲因车祸死亡后与父亲相依为命。曾是国中篮球队员，作为体育特招生被推
+				荐至所就读的高中，但在国三时与酒醉的父亲争吵打架导致右臂受伤，右手能举的高度不能超过肩膀，无法继
+				续打球，之后就丧失了生活和学习的源动力，与父亲之间的关系也变得愈发疏远；相处起来如同陌生人一般。
+				</Ch_introduction>
+				<Voice_actor>中村悠一</Voice_actor>
+			</Character>
+			<Character id = "3">
+				<Ch_name>藤林杏</Ch_name>
+				<Ch_gender>female</Ch_gender>
+				<Ch_picture>./images/clannad_ch3.jpg</Ch_picture>
+				<Ch_introduction>
+				朋也隔壁班的班长，就读光坂高中的3年E班，椋的双胞胎姊姊。在高中二年级时是朋也的同班同学，从此结下
+				堪称孽缘的好友关系。个性争强好胜直来直往，偶尔喜欢捉弄他人，特别爱管闲事，能把几种不同的厚字典当
+				成炮击武器投出，投掷的准确度甚高。虽然性格粗鲁，不过料理意外的好吃。从游戏剧情展开前就暗恋朋也，
+				但在妹妹向自己吐露心意后开始隐藏自己对朋也的感情。
+				</Ch_introduction>
+				<Voice_actor>广桥凉</Voice_actor>
+			</Character>
+			<Character id = "4">
+				<Ch_name>一之濑琴美</Ch_name>
+				<Ch_gender>female</Ch_gender>
+				<Ch_picture>./images/clannad_ch4.jpg</Ch_picture>
+				<Ch_introduction>
+				整天待在图书馆的天才少女，就读光坂高中3年A班，能够轻松读通艰涩的原文书，在全国模拟考试中全课目皆常
+				保持在前十名内，拥有免上课权的学生。个性极端怕生，不论语调或行为都有着小孩子的感觉。有时会用剪刀把
+				书页剪掉，原因是书页上有过世的父母的名字，料理有相当水平。兴趣是读书，非常喜欢小提琴，但拉小提琴的
+				声音拥有非常强的杀伤力，不过小时候她其实拉得很棒。
+				</Ch_introduction>
+				<Voice_actor>能登麻美子</Voice_actor>
+			</Character>
+			<Character id = "5">
+				<Ch_name>坂上智代</Ch_name>
+				<Ch_gender>female</Ch_gender>
+				<Ch_picture>./images/clannad_ch5.jpg</Ch_picture>
+				<Ch_introduction>
+				光坂高中二年B班。初中时超有名，是个打遍镇内无敌手的传说不良少女。因家境复杂，过著乱七八糟的生活，后
+				来因为弟弟鹰文而改变，一家人关系也好了。为了不让通往光坂高等学校校门口的坡道旁樱花树被砍伐而转至该校，
+			    致力参加学生会长的竞选。想改变以往形象，努力让自己像个女孩子，不过因为朋也和春原（主要因为春原恶作剧）
+				常常破功。对迟到和懒散绝对不能原谅，即使用暴力也要把朋也和春原两人带到学校。
+				</Ch_introduction>
+				<Voice_actor>桑岛法子</Voice_actor>
+			</Character>
+			<Character id = "6">
+				<Ch_name>藤林椋</Ch_name>
+				<Ch_gender>female</Ch_gender>
+				<Ch_picture>./images/clannad_ch6.jpg</Ch_picture>
+				<Ch_introduction>
+				藤林杏的双胞胎妹妹，就读光坂高中3年D班，朋也班上的班长。和姊姊相反，个性稳重较内向，不太擅长料理。
+				兴趣是进行占卜。最常使用的占卜用具是扑克牌，但她用扑克牌进行占卜结果却不知为何绝对和真正的结果相反，
+				因此意外的成为了另一种准确的指标，每日都有人排队找她占卜。从游戏剧情展开前就暗恋朋也，这一点也是
+				受姐姐杏的影响。志向是成为一名护士。
+				</Ch_introduction>
+				<Voice_actor>神田朱未</Voice_actor>
+			</Character>
+			<Character id = "7">
+				<Ch_name>春原阳平</Ch_name>
+				<Ch_gender>male</Ch_gender>
+				<Ch_picture>./images/clannad_ch7.jpg</Ch_picture>
+				<Ch_introduction>
+				就读光坂高中3年D班。朋也的最佳损友，同样是不良少年，把头发染了金色。原是因为足球而推荐入学，但发生
+				暴力事件而离开足球部，后来和朋也一起过著堕落的生活，但实际上本性不差。由于不认为智代作为女生却有过
+				人的实力，所以经常找她挑战，每次都被打得倒地不起，因个性单纯常被朋也和杏戏弄。
+				</Ch_introduction>
+				<Voice_actor>阪口大助</Voice_actor>
+			</Character>
+		</Characters>
+	</Animation>
+	<Animation id="2">
+		<General>
+			<Name>EF</Name>
+			<SE_name>#EF</SE_name>
+			<Kind>治愈</Kind>
+			<Original>御影、镜游</Original>
+			<Picture1>./images/ef_bg_1.jpg</Picture1>
+			<Picture2>./images/ef_bg_2.jpg</Picture2>
+			<Picture3>./images/ef_bg_3.jpg</Picture3>
+			<Country>日本</Country>
+			<Company>SHAFT</Company>
+			<Sets>24</Sets>
+			<Duration_av>28</Duration_av>
+			<Director>大沼心</Director>
+			<Character_designer>杉山延宽</Character_designer>
+			<Coordinate>七尾奈留、2C＝がろあ</Coordinate>
+			<Date>2007-06-10</Date>
+			<Introduction>圣诞节，雨宫优子与火村夕两人在教会里重逢。两人怀缅过去，由优子开始诉说过去一年所发生过的种种事情。</Introduction>
+		</General>
+		<Musics>
+			<Music id="1">
+				<Music_name>I'm Here</Music_name>
+				<Music_type>Ending Theme</Music_type>
+				<Artist_name>田口宏子</Artist_name>
+			</Music>
+			<Music id="2">
+				<Music_name>euphoric field</Music_name>
+				<Music_type>Starting Theme</Music_type>
+				<Artist_name>ELISA</Artist_name>
+			</Music>
+			<Music id="3">
+				<Music_name>ebullient future</Music_name>
+				<Music_type>Starting Theme</Music_type>
+				<Artist_name>ELISA</Artist_name>
+			</Music>
+			<Music id="4">
+				<Music_name>笑颜のチカラ</Music_name>
+				<Music_type>Ending Theme</Music_type>
+				<Artist_name>后藤麻衣</Artist_name>
+			</Music>
+			<Music id="5">
+				<Music_name>愿いのカケラ</Music_name>
+				<Music_type>Ending Theme</Music_type>
+				<Artist_name>中岛裕美子</Artist_name>
+			</Music>
+			<Music id="6">
+				<Music_name>ever forever</Music_name>
+				<Music_type>Ending Theme</Music_type>
+				<Artist_name>后藤麻衣,中岛裕美子,田口宏子,冈田纯子</Artist_name>
+			</Music>
+			<Music id="7">
+				<Music_name>euphoric field</Music_name>
+				<Music_type>Interlude</Music_type>
+				<Artist_name>ELISA</Artist_name>
+			</Music>
+		</Musics>
+		<Characters>
+			<Character id="1">
+				<Ch_name>雨宫优子</Ch_name>
+				<Ch_gender>female</Ch_gender>
+				<Ch_picture>./images/ef_ch1.jpg</Ch_picture>
+				<Ch_introduction>
+				在孤儿院长大天真的小女孩，小时候很粘一同在孤儿院的火村夕，称呼火村夕为哥哥。在与火村夕相处期间慢慢地让失去妹妹的火村夕敞开心扉，
+				但是优子并不知情，一直以为火村夕不喜欢她。后来优子被画家雨宫明良领养走，其妹丧生于1988年的地震，为了寻求一种替代感而领养了优子。
+				无家可归的优子，一直忍受着雨宫明良心理变态的虐待。长大后的优子为了复仇而去找火村夕，可后来她却爱上了他。。。。
+				</Ch_introduction>
+				<Voice_actor>中岛裕美子</Voice_actor>
+			</Character>
+			<Character id="2">
+				<Ch_name>火村夕</Ch_name>
+				<Ch_gender>male</Ch_gender>
+				<Ch_picture>./images/ef_ch2.jpg</Ch_picture>
+				<Ch_introduction>
+				自身拥有很好的绘画天赋，儿时因在地震中的一场大火丧失了心爱的妹妹，因为这个阴影深刻的印在了心里所以导致他拒绝优子叫他哥哥，在家中
+				藏有妹妹死後留下的烧焦了的手表。总在优子要求画她的时候因回想起自己的妹妹而无法作画。游戏中就是由他和优子的对话所引起了故事。在街
+				上闲逛的时候会在介意的人的面前突然出现，不客气地留下意味深长的警告和规劝就离去。在日本的音羽镇出生长大，之后到澳大利亚参与建设了
+				在澳大利亚的另一个音羽镇，之后长住在澳大利亚，并一直在那里的教堂等待着命中之人。
+				</Ch_introduction>
+				<Voice_actor>远近孝一</Voice_actor>
+			</Character>
+			<Character id="3">
+				<Ch_name>宫村宫子</Ch_name>
+				<Ch_gender>female</Ch_gender>
+				<Ch_picture>./images/ef_ch3.jpg</Ch_picture>
+				<Ch_introduction>
+				音羽学园2年级生。住在日本的音羽镇。姿容端丽，体育万能的优秀（？）高中生。名气很响，擅长料理。讨厌被束缚，把上课缺席和早退看成理所
+				当然的事。内心其实很想被人所接受。在圣诞节之夜与紘邂逅。因家庭原因对世界没安全感，最后因着纮而重获新生，与广野纮在一起.
+				</Ch_introduction>
+				<Voice_actor>田口宏子</Voice_actor>
+			</Character>
+			<Character id="4">
+				<Ch_name>新藤景</Ch_name>
+				<Ch_gender>female</Ch_gender>
+				<Ch_picture>./images/ef_ch4.jpg</Ch_picture>
+				<Ch_introduction>音羽学园一年级生。住在日本的音羽镇。新藤千寻的双胞胎姐姐，广野纮的青梅竹马。在一年级时就成为篮球部的正式选手。
+				性格很好强，喜欢使用傲慢的男性用语，时不时使出的剪刀脚和飞踢让人觉得不愧是体育系学生。不过对青梅竹马的纮却怀有难言的感情，
+				称呼纮为“哥哥”。与宫村宫子素来不合。曾对于失去纮而自暴自弃。后来理解了紘的想法。最后和堤京介走在一起。但仍然爱着广野纮。
+				</Ch_introduction>
+				<Voice_actor>冈田纯子</Voice_actor>
+			</Character>
+			<Character id="5">
+				<Ch_name>新藤千寻</Ch_name>
+				<Ch_gender>female</Ch_gender>
+				<Ch_picture>./images/ef_ch5.jpg</Ch_picture>
+				<Ch_introduction>
+				新藤景的双胞胎妹妹。原本住在日本的音羽镇，在事故之后被火村夕带到澳大利亚的音羽镇。与姐姐景正相反性格老实读文科系。看起来是沉着冷静，
+				但是一旦聊起来就会发现她非常孩子气，有些天然呆的感觉。由于数年前的事故左眼失明，并患上顺行性遗忘症（只能拥有13小时的记忆），
+				平常带着眼罩，依旧在疗养中没有上学。平时在废弃车站的长椅上静静地读书，并在此遇到了麻生莲治。但后来因为自己的病而一度放弃麻生莲治。
+				但最后因为麻生莲治对她那执着的爱以及她对麻生莲治的爱，使她不断在13小时之间回忆无法忘记麻生莲治，最后和麻生莲治在一起。
+				</Ch_introduction>
+				<Voice_actor>柳瀬夏美</Voice_actor>
+			</Character>
+			<Character id="6">
+				<Ch_name>广野纮</Ch_name>
+				<Ch_gender>male</Ch_gender>
+				<Ch_picture>./images/ef_ch6.jpg</Ch_picture>
+				<Ch_introduction>
+				住在日本的音羽镇。虽然本身高中生但是却是少女漫画家。笔名“新藤凪”。和新藤景是青梅竹马。一直没被作为画家的父亲承认其少女漫画家的资格。
+				被学业和工作压迫得连休息的时间也没有，出席数处于留级边缘，最后选择了专一当个少女漫画家。但是对于别人的请求却是个会抽出时间去帮忙的
+				老好人。经过几番波折，最后和宫村宫子走在一起.
+				</Ch_introduction>
+				<Voice_actor>下野纮</Voice_actor>
+			</Character>
+			<Character id="7">
+				<Ch_name>麻生莲治</Ch_name>
+				<Ch_gender>male</Ch_gender>
+				<Ch_picture>./images/ef_ch7.jpg</Ch_picture>
+				<Ch_introduction>父亲为德国人建筑师的混血青年。原住在日本的音羽镇。因为父亲出差中，所以母子两人生活着。非常喜欢小说，口袋里总会放一本小说。
+				因为父亲的工作原因，从还是孩子的时候便开始辗转海外的音羽，在没有深交的朋友和恋爱的生活中长大。也喜欢一个人在废弃的铁轨上走。因为遇到了喜欢
+				读书的千寻，开始享受交流的快感。经过几番波折，最后和新藤千寻走在一起。
+				</Ch_introduction>
+				<Voice_actor>高城元气</Voice_actor>
+			</Character>
+		</Characters>
+	</Animation>
+</Animations>

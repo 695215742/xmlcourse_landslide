@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Animations SYSTEM "C:\Users\xuebing\Desktop\xml第一次作业\动漫：赵雪冰&刘浩然\Animations.dtd">
+<Animations>
+	<Animation id = "1">
+		<Name></Name>
+		<Author id = "1">
+			<Au_name></Au_name>
+			<Au_age></Au_age>
+			<Au_sex></Au_sex>
+		</Author>
+		<Picture></Picture>
+		<Music></Music>
+		<Kind></Kind>
+		<Color></Color>
+		<Clarity></Clarity>
+		<Size></Size>
+		<Country></Country>
+		<Company></Company>
+		<Time></Time>
+		<Introduction></Introduction>
+		<Total_duration></Total_duration>
+		<Series_list>
+			<Series id = "1">
+				<Se_introduction></Se_introduction>
+				<Duration></Duration>
+				<Se_characters>
+					<Se_character id = "1">
+						<Name></Name>
+					</Se_character>
+				</Se_characters>
+			</Series>
+		</Series_list>
+		<Characters>
+			<Character id = "1">
+				<Ch_name></Ch_name>
+				<Ch_sex></Ch_sex>
+				<Ch_introduction></Ch_introduction>
+				<Voice_actor id = "1">
+					<Va_Name></Va_Name>
+					<Va_age></Va_age>
+				</Voice_actor>
+			</Character>
+		</Characters>
+	</Animation>
+	<Animation id = "2">
+	</Animation>
+</Animations>
