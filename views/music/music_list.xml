@@ -13,12 +13,12 @@
 收回</description>
 		<music_list_booklet>boy.jpg</music_list_booklet>
 	</music_list_info>
-	<music id="1">
+	<music timestamp="2015-04-11" id="1"  >
 		<metadata>
 			<artist_name>Bon Jovi</artist_name>
 			<track_title>shdjak</track_title>
 			<album_title>It's My Life</album_title>
-			<date>2015-02-19</date>
+			<date>2015-05-19</date>
 			<genre>Soundtrack</genre>
 			<composer>Bon Jovi</composer>
 			<track_number>1</track_number>
@@ -35,12 +35,12 @@
 			<bitrate>320 kbps</bitrate>
 		</general>
 	</music>
-	<music id="2">
+	<music  timestamp="2015-04-02" id="2">
 		<metadata>
 			<artist_name>Pitbull / Jennifer Lopez / Cláudia Leitte</artist_name>
 			<track_title>Glassy Sky</track_title>
 			<album_title>We Are One (Ole Ola) (The Official 2014 FIFA World Cup Song)</album_title>
-			<date>2015-02-19</date>
+			<date>2015-03-19</date>
 			<genre>Soundtrack</genre>
 			<composer>やまだ豊</composer>
 			<track_number>2</track_number>
@@ -57,14 +57,14 @@
 			<bitrate>320 kbps</bitrate>
 		</general>
 	</music>
-	<music id="3">
+	<music  timestamp="2015-01-11" id="3">
 		<metadata>
-			<artist_name>やまだ豊</artist_name>
+			<artist_name>One Direction</artist_name>
 			<track_title>TG Symphonie</track_title>
-			<album_title>TVアニメ「東京喰種」オリジナル・サウンドトラック - EP</album_title>
+			<album_title>What Makes You Beautiful</album_title>
 			<date>2015-02-19</date>
 			<genre>Soundtrack</genre>
-			<composer>やまだ豊</composer>
+			<composer>One Direction</composer>
 			<track_number>3</track_number>
 			<total_tracks>3</total_tracks>
 			<comment>少年清澈，少年欢乐</comment>
@@ -79,4 +79,27 @@
 			<bitrate>320 kbps</bitrate>
 		</general>
 	</music>
+	<music timestamp="2015-01-11" id="4" >
+		<metadata>
+			<artist_name>Avril Lavigne</artist_name>
+			<track_title>TG Symphonie</track_title>
+			<album_title>The Best Damn Thing</album_title>
+			<date>2015-02-19</date>
+			<genre>Soundtrack</genre>
+			<composer>Avril Lavigne</composer>
+			<track_number>3</track_number>
+			<total_tracks>3</total_tracks>
+			<comment>想起皮囊第三季结尾Ef在港口看着船一动不动 酒吧里回头一刻还是她写满镜头 她说你们都爱我是吗 她没有说我对你们谁都不爱我对你们无感你们再怎么感动我又怎样 多年后一起私奔的cook看到平原上女朋友上吊 Ef因为金融欺骗被捕</comment>
+			<booklet>Innocence.jpg</booklet>
+		</metadata>
+		<general>
+			<file_name>Innocence</file_name>
+			<file_size>16.2 MB</file_size>
+			<duration>3:45.413</duration>
+			<sample_rate>44100 Hz</sample_rate>
+			<channels>2</channels>
+			<bitrate>320 kbps</bitrate>
+		</general>
+	</music>
+
 </music_list>

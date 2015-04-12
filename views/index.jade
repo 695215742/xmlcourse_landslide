@@ -27,7 +27,8 @@ block content
       wb:login-button(type="3,2" onlogin="login" onlogout="logout") 登录按钮
  div.row
   div.jumbotron
-   h1 第#{week}周作业
+   div.row
+    embed.col(src="logo.svg" width="200" height="200" type="image/svg+xml" pluginspage="http://www.adobe.com/svg/viewer/install/")
    p= weekintro
    p
     button.btn.btn-lg.btn-primary(type="button" data-toggle="popover" title="Download URL" data-content= weekurl) 查看作业文件

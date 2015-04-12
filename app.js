@@ -59,6 +59,21 @@ app.use('/group', function(req, res) {
 app.use('/group.xsl', function(req, res) {
      res.sendfile("./views/group.xsl");
 });
+app.use('/tv', function(req, res) {
+     res.sendfile("./views/tv/test.html");
+});
+
+//logo
+app.use('/logo.svg', function(req, res) {
+     res.sendfile("./public/images/logo.svg");
+});
+
+//test xquery
+app.use('/query', function(req, res) {
+
+});
+
+
 
 app.use('/second', function(req, res) {
   res.render('index',{
